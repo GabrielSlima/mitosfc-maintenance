@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+
+html, body, #content , .bg-filter{height: 100%;}
+
+body{
+    background-image: url('../images/logos/logo.jpg');
+}
+
+.bg-filter{
+    background-image: linear-gradient(#891010, #115F34);
+    width: 100%;
+    opacity: .9;
+    position: absolute;
+}
+#content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header #logo{
+    max-width: 50%;
+    border-radius: 100%;
+    border-image: linear-gradient(to left, red, green);
+    /* border: 10px solid; */
+    /* $border: 5px; */
+    border: solid 5px transparent;
+}
