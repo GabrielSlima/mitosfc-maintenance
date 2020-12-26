@@ -9,7 +9,7 @@ body{
 }
 
 .bg-filter{
-    background-image: linear-gradient(#891010, #115F34);
+    background: rgba(0,0,0,.9);
     width: 100%;
     opacity: .9;
     position: absolute;
